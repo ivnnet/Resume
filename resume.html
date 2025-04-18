@@ -1,37 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+    if (!localStorage.getItem("loggedIn")) {
+        window.location.href = "index.html"; // Redirect to login if not authenticated
+    }
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="resume-container">
-        <h1>Your Name</h1>
-        <h2>Roblox Developer</h2>
-        <p>Email: altfortts@gmail.com | Username: unknown_._._63804 </p>
 
-        <h3>Summary</h3>
-        <p>Passionate Roblox developer with expertise in Lua scripting, UI design, and game mechanics. Experienced in creating engaging gameplay experiences and optimizing performance.</p>
-
-        <h3>Skills</h3>
-        <ul>
-            <li>Lua Scripting</li>
-            <li>Roblox Studio Development</li>
-            <li>UI/UX Design</li>
-            <li>Game Optimization</li>
-            <li>Model structuring</li>
-            <li>3D Design (Blender)</li>
-        </ul>
-
-        <h3>Experience</h3>
-        <p><strong>Developer</strong> - Lil' Ceasers Pizza - Brookfordx (2025)</p>
-        <p>Developed core mechanics, managed UI, fixed crucial bugs, optimized performance, and more.</p>
-         <img src="https://i.ibb.co/HLZ8s4D9/Capture.png" alt="Capture" border="0"></a>
-
-        <h3>Education</h3>
-        <p>Self-Taught and taught by a friend (dom_gamer53)</p>
     </div>
 </body>
 </html>
