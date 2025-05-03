@@ -2,7 +2,7 @@ function login() {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
     
-    if (username === "Ryan" && password === "CVacsess") {
+    if (username === "Jumpit" && password === "Flippersout") {
         localStorage.setItem("loggedIn", "true");
         window.location.href = "resume.html";
     } else {
